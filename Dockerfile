@@ -1,5 +1,8 @@
 FROM ghcr.io/lobennett/poldrack_fmri:latest
 
+# Install gdown at the system level (as root)
+RUN pip install gdown
+
 # Set up arguments and environment variables for the new user
 ARG NB_USER
 ARG NB_UID
