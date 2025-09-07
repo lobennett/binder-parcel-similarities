@@ -3,3 +3,6 @@
 
 # Downloaded hdf5 file
 data/all_contrasts.h5
+
+# macOS file
+.DS_Store
