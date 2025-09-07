@@ -1,0 +1,5 @@
+# VS Code devcontainer config
+.devcontainer/
+
+# Downloaded hdf5 file
+data/all_contrasts.h5
