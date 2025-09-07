@@ -3,8 +3,8 @@ FROM ghcr.io/lobennett/poldrack_fmri:latest
 # Set up arguments and environment variables for the new user
 ARG NB_USER
 ARG NB_UID
-ENV USER ${NB_USER}
-ENV HOME /home/${NB_USER}
+ENV USER=${NB_USER}
+ENV HOME=/home/${NB_USER}
 
 # Create the user with a home directory
 RUN adduser --disabled-password \
